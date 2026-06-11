@@ -1,0 +1,40 @@
+
+================================================================
+RESUMO EXECUTIVO — DIAGNÓSTICO SOCIAL WAVE (Q4 2023)
+Gerado em: 2026-06-11 11:46
+================================================================
+
+1. CONTEXTO
+   Empresa: Social Wave (marketing digital)
+   Problema: CPA disparou após aumento igualitário de verba
+   Período analisado: Outubro a Dezembro de 2023
+   Registros: 23,315
+   Gasto total: $65,701,095.65
+   Conversões: 5,711,699
+   CPA global: $11.50
+
+2. RANKING DE EFICIÊNCIA (CPA — menor = melhor)
+   1. Meta Ads: $3.88 (Gasto: 9.2%, Conv: 27.2%)
+   2. Twitter Ads: $4.86 (Gasto: 19.2%, Conv: 45.5%)
+   3. TikTok: $15.35 (Gasto: 8.6%, Conv: 6.4%)
+   4. YouTube Ads: $27.22 (Gasto: 22.1%, Conv: 9.3%)
+   5. Google Search: $40.76 (Gasto: 39.7%, Conv: 11.2%)
+   6. LinkedIn Ads: $47.47 (Gasto: 1.2%, Conv: 0.3%)
+
+3. PROBLEMAS CRÍTICOS
+   ⚠️  YouTube Ads: gasta 22.1% do orçamento para apenas 9.3% das conversões
+   ⚠️  Google Search: gasta 39.7% do orçamento para apenas 11.2% das conversões
+   ⚠️  Diferença extrema de eficiência: LinkedIn Ads custa 12.2x mais que o canal mais eficiente
+
+4. OPORTUNIDADES
+   💡 Realocar verba de Google Search (sobre-investido) para Twitter Ads (sub-investido)
+   💡 Aumentar investimento em Meta Ads (mais eficiente) — atualmente só 9.2% do orçamento
+   💡 Melhorar criativos de Google Search (CTR baixo) e landing page de Twitter Ads (conversão baixa)
+
+5. RECOMENDAÇÃO PRELIMINAR
+   O aumento igualitário de verba foi ineficiente porque ignorou
+   a assimetria de performance entre canais. A realocação baseada
+   em CPA (mais verba para canais eficientes, menos para ineficientes)
+   é matematicamente superior à alocação uniforme.
+
+================================================================
