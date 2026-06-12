@@ -1,0 +1,25 @@
+================================================================
+RESUMO — OTIMIZAÇÃO DE ORÇAMENTO (NOTEBOOK 03)
+Gerado em: 2026-06-12 12:10
+================================================================
+
+ALOCAÇÃO RECOMENDADA
+   Meta Ads: 9.2% → 50.0%
+   Twitter Ads: 19.2% → 30.0%
+   TikTok: 8.6% → 5.0%
+   YouTube Ads: 22.1% → 5.0%
+   Google Search: 39.7% → 5.0%
+   LinkedIn Ads: 1.2% → 5.0%
+
+IMPACTO ESPERADO (mesmo orçamento)
+   CPA: $11.51 → $6.65 (+42.2%)
+   Conversões: 5711699 → 9873729 (+72.9%)
+
+CENÁRIO +20% ORÇAMENTO
+   Melhor estratégia: Otimizada
+   CPA: $10.32
+   Conversões: 7637891
+
+PRÓXIMA ETAPA
+   Notebook 04: Resumo Executivo para gestores
+================================================================
