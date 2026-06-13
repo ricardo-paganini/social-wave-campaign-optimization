@@ -86,7 +86,7 @@ social-wave-campaign-optimization/
 
 | Ferramenta | Uso |
 |------------|-----|
-| **Python 3.11** | Linguagem principal |
+| **Python 3.14.5** | Linguagem principal |
 | **Pandas** | Manipulação de dados |
 | **NumPy** | Cálculos numéricos |
 | **Matplotlib** | Visualizações estáticas |
