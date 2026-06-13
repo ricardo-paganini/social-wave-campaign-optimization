@@ -37,20 +37,20 @@ Em 2024, a empresa aumentou o orçamento em 20% dividindo igualmente entre canai
 ```
 social-wave-campaign-optimization/
 ├── 📂 data/
-│   ├── raw/                    # Dados originais (não versionar)
-│   └── processed/              # Dados tratados (.pkl + .csv)
+│   ├── raw/                    
+│   └── processed/              
 ├── 📂 notebooks/
-│   ├── notebook\_00\_contexto\_dicionario\_e\_tratamento.ipynb   # Contexto e validação
-│   ├── notebook\_01\_analise\_exploratoria.ipynb    # Análise exploratória
-│   ├── notebook\_02\_analise\_do\_cpa.ipynb            # Decomposição do CPA
-│   ├── notebook\_03\_otimizacao\_de\_orcamento.ipynb     # Modelo de otimização
-│   └── notebook\_04\_resumo\_executivo.ipynb       # Resumo executivo
+│   ├── notebook\_00\_contexto\_dicionario\_e\_tratamento.ipynb   
+│   ├── notebook\_01\_analise\_exploratoria.ipynb    
+│   ├── notebook\_02\_analise\_do\_cpa.ipynb            
+│   ├── notebook\_03\_otimizacao\_de\_orcamento.ipynb     
+│   └── notebook\_04\_resumo\_executivo.ipynb       
 ├── 📂 reports/
-│   ├── images/                # 12 visualizações geradas
-│   └── \*.txt                   # Resumos de texto
-├── 📄 requirements.txt         # Dependências
-├── 📄 README.md                # Este arquivo
-└── 📄 LICENSE                  # Licença MIT
+│   ├── images/                
+│   └── \*.txt                   
+├── 📄 requirements.txt         
+├── 📄 README.md                
+└── 📄 LICENSE                  
 ```
 
 \---
@@ -61,12 +61,12 @@ social-wave-campaign-optimization/
 
 |Canal|CPA|Status|
 |-|-|-|
-|**Meta Ads**|$\[3.88]|🏆 Mais eficiente|
-|**Google Search**|$\[40.76]|✅ Eficiente|
-|**YouTube Ads**|$\[27.22]|✅ Eficiente|
-|**TikTok**|$\[15.35]|⚠️ Médio|
-|**Twitter Ads**|$\[4.86]|⚠️ Médio|
-|**LinkedIn Ads**|$\[47.47]|🔴 Menos eficiente|
+|**Meta Ads**|$\3.88|🏆 Mais eficiente|
+|**Google Search**|$\40.76|✅ Eficiente|
+|**YouTube Ads**|$\27.22|✅ Eficiente|
+|**TikTok**|$\15.35|⚠️ Médio|
+|**Twitter Ads**|$\4.86|⚠️ Médio|
+|**LinkedIn Ads**|$\47.47|🔴 Menos eficiente|
 
 **Problema identificado:** Desbalanceamento crítico entre share de gasto e share de conversões. Canais ineficientes consomem mais verba do que retornam.
 
@@ -74,9 +74,9 @@ social-wave-campaign-optimization/
 
 |Cenário|CPA Global|Conversões|
 |-|-|-|
-|**Atual**|$\[11.51]|\[5,711,699]|
-|**Otimizado**|$\[6.65]|\[9,873,729]|
-|**Ganho**|**\[42.2]% ↓**|**\[72.9]% ↑**|
+|**Atual**|$\11.51|\5,711,699|
+|**Otimizado**|$\6.65|\9,873,729|
+|**Ganho**|**\42.2% ↓**|**\72.9% ↑**|
 
 **Alocação recomendada:** Reduzir verba em canais sobre-investidos, aumentar em canais sub-investidos, mantendo presença mínima de 5%.
 
