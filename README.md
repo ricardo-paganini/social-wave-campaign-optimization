@@ -13,7 +13,7 @@
 
 Este projeto analisa dados de campanhas de marketing digital da **Social Wave** para responder a uma pergunta crítica de negócio:
 
-> \*\*"Como aumentar o orçamento de marketing sem disparar o CPA (Custo Por Aquisição)?"\*\*
+> \\\*\\\*"Como aumentar o orçamento de marketing sem disparar o CPA (Custo Por Aquisição)?"\\\*\\\*
 
 Em 2024, a empresa aumentou o orçamento em 20% dividindo igualmente entre canais — o resultado foi um **CPA global elevado**. Este projeto usa dados de Outubro-Dezembro de 2023 para construir um **modelo de otimização de alocação de orçamento** que minimiza o CPA global.
 
@@ -40,14 +40,14 @@ social-wave-campaign-optimization/
 │   ├── raw/                    
 │   └── processed/              
 ├── 📂 notebooks/
-│   ├── notebook\_00\_contexto\_dicionario\_e\_tratamento.ipynb   
-│   ├── notebook\_01\_analise\_exploratoria.ipynb    
-│   ├── notebook\_02\_analise\_do\_cpa.ipynb            
-│   ├── notebook\_03\_otimizacao\_de\_orcamento.ipynb     
-│   └── notebook\_04\_resumo\_executivo.ipynb       
+│   ├── notebook\\\_00\\\_contexto\\\_dicionario\\\_e\\\_tratamento.ipynb   
+│   ├── notebook\\\_01\\\_analise\\\_exploratoria.ipynb    
+│   ├── notebook\\\_02\\\_analise\\\_do\\\_cpa.ipynb            
+│   ├── notebook\\\_03\\\_otimizacao\\\_de\\\_orcamento.ipynb     
+│   └── notebook\\\_04\\\_resumo\\\_executivo.ipynb       
 ├── 📂 reports/
 │   ├── images/                
-│   └── \*.txt                   
+│   └── \\\*.txt                   
 ├── 📄 requirements.txt         
 ├── 📄 README.md                
 └── 📄 LICENSE                  
@@ -61,12 +61,12 @@ social-wave-campaign-optimization/
 
 |Canal|CPA|Status|
 |-|-|-|
-|**Meta Ads**|$\3.88|🏆 Mais eficiente|
-|**Google Search**|$\40.76|✅ Eficiente|
-|**YouTube Ads**|$\27.22|✅ Eficiente|
-|**TikTok**|$\15.35|⚠️ Médio|
-|**Twitter Ads**|$\4.86|⚠️ Médio|
-|**LinkedIn Ads**|$\47.47|🔴 Menos eficiente|
+|**Meta Ads**|$ 3.88|🏆 Mais eficiente|
+|**Google Search**|$ 40.76|✅ Eficiente|
+|**YouTube Ads**|$ 27.22|✅ Eficiente|
+|**TikTok**|$ 15.35|⚠️ Médio|
+|**Twitter Ads**|$ 4.86|⚠️ Médio|
+|**LinkedIn Ads**|$ 47.47|🔴 Menos eficiente|
 
 **Problema identificado:** Desbalanceamento crítico entre share de gasto e share de conversões. Canais ineficientes consomem mais verba do que retornam.
 
@@ -74,9 +74,9 @@ social-wave-campaign-optimization/
 
 |Cenário|CPA Global|Conversões|
 |-|-|-|
-|**Atual**|$\11.51|\5,711,699|
-|**Otimizado**|$\6.65|\9,873,729|
-|**Ganho**|**\42.2% ↓**|**\72.9% ↑**|
+|**Atual**|$ 11.51|5,711,699|
+|**Otimizado**|$ 6.65|9,873,729|
+|**Ganho**|**42.2% ↓**|**72.9% ↑**|
 
 **Alocação recomendada:** Reduzir verba em canais sobre-investidos, aumentar em canais sub-investidos, mantendo presença mínima de 5%.
 
@@ -111,7 +111,7 @@ cd social-wave-campaign-optimization
 ```bash
 # Windows
 python -m venv .venv
-.venv\\Scripts\\activate
+.venv\\\\Scripts\\\\activate
 
 # Linux/Mac
 python3 -m venv .venv
@@ -137,11 +137,11 @@ jupyter notebook
 
 |#|Arquivo|Conteúdo|Status|
 |-|-|-|-|
-|00|`notebook\_00\_contexto\_dicionario\_e\_tratamento.ipynb`|Contexto, dicionário, validação de dados|✅|
-|01|`notebook\_01\_analise\_exploratoria.ipynb`|EDA: CPA, CTR, shares, correlações, 6 visualizações|✅|
-|02|`notebook\_02\_analise\_do\_cpa.ipynb`|Decomposição do CPA em CPM/CTR/Conversão, sensibilidade|✅|
-|03|`notebook\_03\_otimizacao\_de\_orcamento.ipynb`|Modelo de alocação ótima, trade-off, simulações|✅|
-|04|`notebook\_04\_resumo\_executivo.ipynb`|Storytelling executivo, dashboard de KPIs|✅|
+|00|`notebook\\\_00\\\_contexto\\\_dicionario\\\_e\\\_tratamento.ipynb`|Contexto, dicionário, validação de dados|✅|
+|01|`notebook\\\_01\\\_analise\\\_exploratoria.ipynb`|EDA: CPA, CTR, shares, correlações, 6 visualizações|✅|
+|02|`notebook\\\_02\\\_analise\\\_do\\\_cpa.ipynb`|Decomposição do CPA em CPM/CTR/Conversão, sensibilidade|✅|
+|03|`notebook\\\_03\\\_otimizacao\\\_de\\\_orcamento.ipynb`|Modelo de alocação ótima, trade-off, simulações|✅|
+|04|`notebook\\\_04\\\_resumo\\\_executivo.ipynb`|Storytelling executivo, dashboard de KPIs|✅|
 
 \---
 
@@ -149,18 +149,18 @@ jupyter notebook
 
 |#|Figura|Descrição|
 |-|-|-|
-|01|`01\_cpa\_por\_canal.png`|CPA por canal (barras horizontais)|
-|02|`02\_share\_gasto\_vs\_conversao.png`|Desbalanceamento gasto vs. conversão|
-|03|`03\_gasto\_vs\_cpa\_scatter.png`|Dispersão: gasto vs. CPA (retornos decrescentes)|
-|04|`04\_evolucao\_cpa\_temporal.png`|Evolução do CPA ao longo do tempo|
-|05|`05\_ctr\_vs\_taxa\_conversao.png`|CTR vs. Taxa de Conversão (funil)|
-|06|`06\_matriz\_correlacao.png`|Heatmap de correlações|
-|07|`07\_decomposicao\_cpa.png`|Decomposição do CPA em componentes|
-|08|`08\_tornado\_sensibilidade.png`|Tornado chart: impacto de melhorias|
-|09|`09\_alocacao\_atual\_vs\_otima.png`|Alocação atual vs. ótima|
-|10|`10\_tradeoff\_custo\_volume.png`|Trade-off: custo vs. volume|
-|11|`11\_simulacao\_aumento\_20pct.png`|Simulação de +20% orçamento|
-|12|`12\_dashboard\_executivo.png`|Dashboard executivo (4 KPIs)|
+|01|`01\\\_cpa\\\_por\\\_canal.png`|CPA por canal (barras horizontais)|
+|02|`02\\\_share\\\_gasto\\\_vs\\\_conversao.png`|Desbalanceamento gasto vs. conversão|
+|03|`03\\\_gasto\\\_vs\\\_cpa\\\_scatter.png`|Dispersão: gasto vs. CPA (retornos decrescentes)|
+|04|`04\\\_evolucao\\\_cpa\\\_temporal.png`|Evolução do CPA ao longo do tempo|
+|05|`05\\\_ctr\\\_vs\\\_taxa\\\_conversao.png`|CTR vs. Taxa de Conversão (funil)|
+|06|`06\\\_matriz\\\_correlacao.png`|Heatmap de correlações|
+|07|`07\\\_decomposicao\\\_cpa.png`|Decomposição do CPA em componentes|
+|08|`08\\\_tornado\\\_sensibilidade.png`|Tornado chart: impacto de melhorias|
+|09|`09\\\_alocacao\\\_atual\\\_vs\\\_otima.png`|Alocação atual vs. ótima|
+|10|`10\\\_tradeoff\\\_custo\\\_volume.png`|Trade-off: custo vs. volume|
+|11|`11\\\_simulacao\\\_aumento\\\_20pct.png`|Simulação de +20% orçamento|
+|12|`12\\\_dashboard\\\_executivo.png`|Dashboard executivo (4 KPIs)|
 
 \---
 
@@ -181,11 +181,11 @@ Onde:
 ### Modelo de Otimização
 
 ```
-Minimizar: CPA\_global = Σ(Gasto\_i) / Σ(Conversões\_i)
+Minimizar: CPA\\\_global = Σ(Gasto\\\_i) / Σ(Conversões\\\_i)
 Sujeito a:
-  - Σ(Share\_i) = 100%
-  - 5% ≤ Share\_i ≤ 50% (presença mínima, não concentrar)
-  - CPA\_i = CPA\_base\_i × (1 + 0.3 × ln(Share\_i / Share\_base\_i))
+  - Σ(Share\\\_i) = 100%
+  - 5% ≤ Share\\\_i ≤ 50% (presença mínima, não concentrar)
+  - CPA\\\_i = CPA\\\_base\\\_i × (1 + 0.3 × ln(Share\\\_i / Share\\\_base\\\_i))
 ```
 
 Método: **SLSQP** (Sequential Least Squares Programming) via SciPy.
@@ -223,5 +223,5 @@ Data Analyst | Marketing Analytics
 
 \---
 
-> \*"Dados ruins = insights ruins. Dados bem tratados = decisões certeiras."\*
+> \\\*"Dados ruins = insights ruins. Dados bem tratados = decisões certeiras."\\\*
 
