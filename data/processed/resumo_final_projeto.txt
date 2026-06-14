@@ -1,0 +1,32 @@
+================================================================
+RESUMO FINAL — PROJETO SOCIAL WAVE
+Gerado em: 2026-06-14 15:21
+================================================================
+
+1. CONTEXTO
+   Empresa: Social Wave (marketing digital)
+   Problema: CPA disparou após aumento igualitário de verba
+   Período analisado: Out-Dez 2023
+   Stack: Python (Pandas, Matplotlib, SciPy) + Jupyter
+
+2. METODOLOGIA
+   • Notebook 01: EDA — diagnóstico do problema
+   • Notebook 02: Análise de CPA — decomposição em componentes
+   • Notebook 03: Otimização — modelo de alocação ótima
+   • Notebook 04: Resumo executivo — storytelling para gestores
+
+3. RESULTADOS
+   CPA atual: $11.50
+   CPA ótimo: $6.65
+   Redução: 42.2%
+   Conversões: 5711699 → 9873729
+
+4. RECOMENDAÇÃO
+   Realocar verba de canais ineficientes para eficientes,
+   respeitando presença mínima de 5% em cada canal.
+
+5. ENTREGÁVEIS
+   5 notebooks, 2 arquivos de dados, 3 relatórios de texto,
+   12 figuras, 1 dashboard executivo.
+
+================================================================
