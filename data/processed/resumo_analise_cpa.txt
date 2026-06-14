@@ -1,0 +1,34 @@
+================================================================
+RESUMO — ANÁLISE DE CPA (NOTEBOOK 02)
+Gerado em: 2026-06-14 15:10
+================================================================
+
+1. FÓRMULA UTILIZADA
+   CPA = (CPM × 10) / (CTR × Taxa_Conversao)
+   Onde CTR e Taxa_Conversao estão em PERCENTUAL
+
+2. DIAGNÓSTICO POR CANAL
+   Meta Ads: CPA $3.88 | CPM idx 100 | CTR idx 100 | Conv idx 100
+   Twitter Ads: CPA $4.86 | CPM idx 138 | CTR idx 90 | Conv idx 101
+   TikTok: CPA $15.35 | CPM idx 17 | CTR idx 2375 | Conv idx 99
+   YouTube Ads: CPA $27.22 | CPM idx 14 | CTR idx 5089 | Conv idx 100
+   Google Search: CPA $40.76 | CPM idx 16 | CTR idx 6786 | Conv idx 100
+   LinkedIn Ads: CPA $47.47 | CPM idx 18 | CTR idx 6786 | Conv idx 100
+
+3. SIMULAÇÃO (20% de melhoria no componente-chave)
+   Meta Ads: Reduzir CPM 20% → CPA $3.11 (redução 19.9%) → AUMENTAR verba
+   Twitter Ads: Reduzir CPM 20% → CPA $3.89 (redução 19.9%) → AUMENTAR verba
+   TikTok: Reduzir CPM 20% → CPA $12.40 (redução 19.2%) → AUMENTAR verba
+   YouTube Ads: Reduzir CPM 20% → CPA $21.86 (redução 19.7%) → MANTER verba
+   Google Search: Reduzir CPM 20% → CPA $33.06 (redução 18.9%) → REDUZIR verba
+   LinkedIn Ads: Reduzir CPM 20% → CPA $38.28 (redução 19.4%) → REDUZIR verba
+
+4. IMPACTO AGREGADO
+   CPA atual:      $11.50
+   CPA otimizado:  $9.23
+   Redução:        19.7%
+   Ganho conv.:    24.6%
+
+5. PRÓXIMA ETAPA
+   Notebook 03: Modelo de Otimização de Orçamento
+================================================================
