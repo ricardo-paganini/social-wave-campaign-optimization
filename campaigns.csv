@@ -1,0 +1,13 @@
+campaign_id,channel_id,campaign_name,campaign_type,start_date
+CP01,CH01,Google Search - Prospecção,Prospecção,2024-01-01
+CP02,CH01,Google Search - Remarketing,Remarketing,2024-01-01
+CP03,CH02,Google Display - Prospecção,Prospecção,2024-01-01
+CP04,CH02,Google Display - Remarketing,Remarketing,2024-01-01
+CP05,CH03,Meta Ads - Prospecção,Prospecção,2024-01-01
+CP06,CH03,Meta Ads - Remarketing,Remarketing,2024-01-01
+CP07,CH04,TikTok Ads - Prospecção,Prospecção,2024-01-01
+CP08,CH04,TikTok Ads - Remarketing,Remarketing,2024-01-01
+CP09,CH05,YouTube Ads - Prospecção,Prospecção,2024-01-01
+CP10,CH05,YouTube Ads - Remarketing,Remarketing,2024-01-01
+CP11,CH06,Pinterest Ads - Prospecção,Prospecção,2024-01-01
+CP12,CH06,Pinterest Ads - Remarketing,Remarketing,2024-01-01
